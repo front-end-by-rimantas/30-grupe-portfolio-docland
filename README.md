@@ -27,10 +27,10 @@ Design: https://themelooks.org/demo/docland/html/home-course.html
 
 ## Authors
 
-Rimantas: [Github](https://github.com/belauzas)
-Mykolas: [Github](https://github.com/)
-Arūnas: [Github](https://github.com/musudizainas/)
-Paulius: [Github](https://github.com/Pvaleikis)
-Egidijus: [Github](https://github.com/egidijusguobis)
-Rimantas: [Github](https://github.com/RimantasZiedelis)
-Algirdas: [Github](https://github.com/Algis1978)
+- Rimantas: [Github](https://github.com/belauzas)
+- Mykolas: [Github](https://github.com/)
+- Arūnas: [Github](https://github.com/musudizainas/)
+- Paulius: [Github](https://github.com/Pvaleikis)
+- Egidijus: [Github](https://github.com/egidijusguobis)
+- Rimantas: [Github](https://github.com/RimantasZiedelis)
+- Algirdas: [Github](https://github.com/Algis1978)
