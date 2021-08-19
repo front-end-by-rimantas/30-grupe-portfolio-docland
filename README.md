@@ -11,7 +11,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-rimantas.github.io/30-grupe-portfolio/
 
-Design: https://shreethemes.in/landrick/layouts/index-business.html
+Design: https://themelooks.org/demo/docland/html/home-course.html
 
 ## Project features
 
