@@ -3,7 +3,7 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-# Landrick portfolio
+# DOCLand portfolio
 
 _30 group website project_
 
@@ -11,7 +11,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-rimantas.github.io/30-grupe-portfolio/
 
-Design: https://shreethemes.in/landrick/layouts/index-business.html
+Design: https://themelooks.org/demo/docland/html/home-course.html
 
 ## Project features
 
@@ -28,3 +28,9 @@ Design: https://shreethemes.in/landrick/layouts/index-business.html
 ## Authors
 
 Rimantas: [Github](https://github.com/belauzas)
+Mykolas: [Github](https://github.com/)
+Arūnas: [Github](https://github.com/musudizainas/)
+Paulius: [Github](https://github.com/Pvaleikis)
+Egidijus: [Github](https://github.com/egidijusguobis)
+Rimantas: [Github](https://github.com/RimantasZiedelis)
+Algirdas: [Github](https://github.com/Algis1978)
