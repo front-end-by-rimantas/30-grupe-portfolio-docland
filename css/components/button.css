@@ -1,0 +1,77 @@
+.button1,
+.button2,
+.button3 {
+  padding: 12px 30px 12px 30px;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: bolder;
+  text-decoration: none;
+  display: inline-block;
+}
+.button1,
+.button2 {
+  padding: 12px 30px 12px 30px;
+  border-radius: 6px;
+  font-size: medium;
+  font-weight: bolder;
+  color: white;
+}
+.button1 {
+  background-color: var(--system1); /* pradine spalva */
+}
+.button2 {
+  background-color: var(--system2); /* pradine spalva */
+}
+.button3 {
+  background-color: white; /* pradine spalva */
+  color: var(--system1);
+}
+/* animacijų sukūrimas, kai hoverina */
+.button1:hover {
+  animation-name: button1;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button1 {
+  0% {
+    background-color: var(--system1);
+  }
+  5% {
+    background-color: #c0a752;
+  }
+  100% {
+    background-color: var(--system2);
+    opacity: 1;
+  }
+}
+.button2:hover {
+  animation-name: button2;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button2 {
+  0% {
+    background-color: var(--system2);
+  }
+  5% {
+    background-color: #c0a752;
+  }
+  100% {
+    background-color: var(--system1);
+  }
+}
+.button3:hover {
+  animation-name: button3;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button3 {
+  0% {
+    background-color: var(--colortexttab);
+    color: var(--system1);
+  }
+  100% {
+    background-color: var(--system2);
+    color: var(--colortexttab);
+  }
+}
