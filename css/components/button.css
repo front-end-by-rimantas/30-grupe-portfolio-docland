@@ -74,6 +74,7 @@
     color: var(--colortexttab);
   }
 }
+
 .button-play {
   padding: 18px 20px 17px 22px;
   border-radius: 50%;
@@ -96,5 +97,29 @@
   }
   100% {
     background-color: var(--system1);
+  }
+}
+
+.button-up {
+  padding: 5px 10px 6px 10px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: var(--colortexttab);
+  background-color: var(--system2); /* pradine spalva */
+  display: inline-block;
+}
+.button-up:hover {
+  animation-name: button-up;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button-up {
+  0% {
+    background-color: var(--system2);
+    opacity: 1;
+  }
+  100% {
+    background-color: var(--system2);
+    opacity: 0.6;
   }
 }
