@@ -12,3 +12,6 @@
 @import './components/header.css';
 
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
+body {
+    background-color: darksalmon;
+}
