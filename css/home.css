@@ -12,6 +12,3 @@
 @import "./components/header.css";
 
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
-html {
-  scroll-behavior: smooth;
-}
