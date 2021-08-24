@@ -1,56 +1,14 @@
 /* base */
-@import './base/reset.css';
-@import './base/variables.css';
-@import './base/layout.css';
-@import './base/base.css';
+@import "./base/reset.css";
+@import "./base/variables.css";
+@import "./base/layout.css";
+@import "./base/base.css";
 
 /* 3rd-party */
 
 /* components */
-@import './components/button.css';
-@import './components/footer.css';
-@import './components/header.css';
+@import "./components/button.css";
+@import "./components/footer.css";
+@import "./components/header.css";
 
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
-body {
-    background-color: darksalmon;
-}
-        /* Header componnents pradzia  */
-        /* Header componnents pabaiga  */
-      
-        /* Learn UX design pradzia  */
-        /* Learn UX design pabaiga  */
-      
-        /* Date / time pradzia  */
-        /* Data / time pabaiga  */
-            
-        /* What u learn pradzia  */
-        /* What u learn pabaiga  */
-            
-        /* Cource syllabus pradzia  */
-        /* Cource syllabus pabaiga  */
-            
-        /* Cource benefit pradzia  */
-        /* Cource benefit pabaiga  */
-            
-        /* Pricing pradzia  */
-        /* Pricing pabaiga  */
-          
-        /* Studients reviews pradzia  */
-        /* Studients reviews pabaiga  */
-            
-        /* Form pradzia  */
-        /* Form pabaiga  */
-            
-        /* Cource insructor pradzia  */
-        /* Cource insructor pabaiga  */
-            
-        /* Cource insructor pradzia  */
-        /* Cource insructor pabaiga  */
-            
-        /* Form pradzia  */
-        /* Form pabaiga  */
-           
-        /* Footer pradzia  */
-        /* Footer pabaiga  */
-           
