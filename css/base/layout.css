@@ -47,7 +47,7 @@
   float: left;
   margin-left: var(--half-gap);
   margin-right: var(--half-gap);
-  background-color: aquamarine;
+  background-color: yellow;
 }
 .row > .reverse {
   float: right;
@@ -126,10 +126,10 @@
   margin-left: var(--ml11);
 }
 
-.row > .visible {
+.row .visible {
   display: inline-block;
 }
-.row > .hidden {
+.row .hidden {
   display: none;
 }
 
