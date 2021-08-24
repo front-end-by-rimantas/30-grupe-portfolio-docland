@@ -12,15 +12,20 @@
 .button1,
 .button2 {
   color: white;
+  color: var(--colortexttab);
 }
 .button1 {
+  background-color: cadetblue; /* pradine spalva */
   background-color: var(--system1); /* pradine spalva */
 }
 .button2 {
+  background-color: darkorange; /* pradine spalva */
   background-color: var(--system2); /* pradine spalva */
 }
 .button3 {
+  background-color: white; /* pradine spalva */
   background-color: var(--colortexttab); /* pradine spalva */
+  color: cadetblue;
   color: var(--system1);
 }
 /* animacijų sukūrimas, kai hoverina */
@@ -77,7 +82,9 @@
   padding: 18px 20px 17px 22px;
   border-radius: 50%;
   font-size: 20px;
+  color: white;
   color: var(--colortexttab);
+  background-color: darkorange; /* pradine spalva */
   background-color: var(--system2); /* pradine spalva */
   display: inline-block;
 }
@@ -103,7 +110,9 @@
   padding: 8px 14px 6px 14px;
   border-radius: 50%;
   font-size: 22px;
+  color: white;
   color: var(--colortexttab);
+  background-color: darkorange; /* pradine spalva */
   background-color: var(--system2); /* pradine spalva */
   filter: drop-shadow(0px 3px 6px rgba(164, 164, 165, 0.515));
   position: fixed;
