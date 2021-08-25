@@ -1,0 +1,53 @@
+/* BOTTOM-FORM 
+Forma apačioje footer dalyje*/
+.bottom-form {
+    width: 100%;
+    position: relative;
+  }
+  .email-bottom {
+    width: 100%;
+    height: 46px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: cadetblue;
+    background-color: var(--system1);
+    font-size: large;
+    color: white;
+    color: var(--colortexttab);
+    padding: 0px 0px 4px 20px;
+  }
+  .email-bottom::placeholder {
+    color: white;
+    color: var(--colortexttab);
+  }
+  .bottom-subscribe {
+    width: 100px;
+    height: 46px;
+    border: none;
+    border-radius: 30px;
+    background-color: darkorange;
+    background-color: var(--system2);
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    color: var(--colortexttab);
+    padding: 0px 0px 4px 0px;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+  }
+  .bottom-subscribe:hover {
+    animation-name: bottom-subscribe;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+  }
+  @keyframes bottom-subscribe {
+    0% {
+      color: var(--colortexttab);
+    }
+    100% {
+      color: var(--fontbig);
+    }
+  }
+  
