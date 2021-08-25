@@ -1,0 +1,9 @@
+:root {
+  /* spalvos */
+  --system1: #5fdac2; /* pasteline melyna */
+  --system2: #fbc415; /* pasteline geltona */
+  --fontlittle: #5c6b56; /* mazojo srifto */
+  --fontbig: #292929; /* didziojo srifto */
+  --colortexttab: #ffffff; /* teksto fono */
+  --mainbackground: #f4f9f4; /* pagr. fono */
+}
