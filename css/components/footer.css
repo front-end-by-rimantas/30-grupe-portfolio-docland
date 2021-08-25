@@ -3,6 +3,7 @@ footer .title {
 }
 
 footer .logo {
+    height: 21px;
     margin-bottom: 20px;
 }
 
@@ -22,7 +23,7 @@ footer .socials a {
     margin: 6px;
     border-radius: 50%;
     transition: all 0.5s;
-    background-color: aquamarine;
+    background-color: transparent;
 }
 footer .socials a:hover {
     background-color: pink;
@@ -33,19 +34,14 @@ footer p.description {
     line-height: 1.5em;
 }
 
-footer .features {
+footer .links {
     line-height: 2em;
     text-decoration: none;
 }
-footer .features a {
+footer .links a {
+    display: block;
     text-decoration: none;
 }
-
-
-footer .company-links {
-    line-height: 2em;
-    text-decoration: none;
-}
-footer .company-links a {
-    text-decoration: none;
+footer .links a:hover {
+    color: pink;
 }
