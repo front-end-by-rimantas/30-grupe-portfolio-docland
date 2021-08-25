@@ -91,3 +91,12 @@ Didžioji email forma centre*/
     right: 5%;
   }
 }
+@media screen and (min-width: 1200px) {
+  .email-main {
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+  }
+  .main-arrow {
+    right: 25%;
+  }
+}
