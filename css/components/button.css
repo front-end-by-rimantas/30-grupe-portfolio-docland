@@ -1,4 +1,3 @@
-/* BUTTONS 1, 2, 3 */
 .button1,
 .button2,
 .button3 {
@@ -12,15 +11,20 @@
 .button1,
 .button2 {
   color: white;
+  color: var (--colortexttab);
 }
 .button1 {
+  background-color: cadetblue; /* pradine spalva */
   background-color: var(--system1); /* pradine spalva */
 }
 .button2 {
+  background-color: darkorange; /* pradine spalva */
   background-color: var(--system2); /* pradine spalva */
 }
 .button3 {
+  background-color: white; /* pradine spalva */
   background-color: var(--colortexttab); /* pradine spalva */
+  color: cadetblue;
   color: var(--system1);
 }
 /* animacijų sukūrimas, kai hoverina */
@@ -71,13 +75,18 @@
     color: var(--colortexttab);
   }
 }
+.view-all-reviews {
+  margin: auto;
+}
 
-/* BUTTON-PLAY*/
+/* ______________________________________ */
 .button-play {
   padding: 18px 20px 17px 22px;
   border-radius: 50%;
   font-size: 20px;
+  color: white;
   color: var(--colortexttab);
+  background-color: darkorange; /* pradine spalva */
   background-color: var(--system2); /* pradine spalva */
   display: inline-block;
 }
@@ -97,13 +106,17 @@
     background-color: var(--system1);
   }
 }
-
-/* BUTTON-UP*/
+.viewallreviews > p {
+  text-align: center;
+}
+/* _________________________________________ */
 .button-up {
   padding: 8px 14px 6px 14px;
   border-radius: 50%;
   font-size: 22px;
+  color: white;
   color: var(--colortexttab);
+  background-color: darkorange; /* pradine spalva */
   background-color: var(--system2); /* pradine spalva */
   filter: drop-shadow(0px 3px 6px rgba(164, 164, 165, 0.515));
   position: fixed;
@@ -138,7 +151,69 @@
     opacity: 0.5;
   }
 }
-
-/* BUTTON-ARROWs */
-.button-arrows {
+/* ______________________________________________ */
+.button-up1 {
+  padding: 5px 10px 6px 10px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: white;
+  color: var(--colortexttab);
+  background-color: darkorange; /* pradine spalva */
+  background-color: var(--system2); /* pradine spalva */
+  filter: drop-shadow(0px 3px 6px rgba(164, 164, 165, 0.515));
+  display: inline-block;
+}
+.button-up1:hover {
+  animation-name: button-up1;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button-up1 {
+  0% {
+    background-color: var(--system2);
+    opacity: 1;
+  }
+  100% {
+    background-color: var(--system2);
+    opacity: 0.5;
+  }
+}
+/* ___________________________________ */
+.button-arrow {
+  background-color: #c4faf8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  color: var(--system1);
+  font-size: 28px;
+  padding: 6px 16px 2px 16px;
+}
+.button-arrow:hover {
+  animation-name: button-arrow;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+}
+.student-review-h2 {
+  display: inline-block;
+  width: 70%;
+}
+.arrow-left {
+  display: inline-block;
+  float: right;
+  margin-right: 12px;
+}
+.arrow-right {
+  display: inline-block;
+  float: right;
+  margin-right: 30px;
+}
+@keyframes button-arrow {
+  0% {
+    background-color: #c4faf8;
+    color: var(--system1);
+  }
+  100% {
+    background-color: var(--system1);
+    color: var(--colortexttab);
+  }
 }
