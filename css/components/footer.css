@@ -4,7 +4,8 @@ footer .title {
 
 footer .logo {
     height: 21px;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
+    margin-top: 5px;
 }
 
 footer .socials {
@@ -26,7 +27,7 @@ footer .socials a {
     background-color: transparent;
 }
 footer .socials a:hover {
-    background-color: pink;
+    background-color: var(--system1);
     color: #fff;
 }
 
@@ -37,11 +38,15 @@ footer p.description {
 footer .links {
     line-height: 2em;
     text-decoration: none;
+    background-color: transparent;
 }
 footer .links a {
+    font-weight: normal;
     display: block;
     text-decoration: none;
+    transition: all 0.3s;
 }
 footer .links a:hover {
-    color: pink;
+    color: var(--system1);
+    margin-left: 3px;
 }
