@@ -217,3 +217,9 @@
     color: var(--colortexttab);
   }
 }
+@media screen and (max-width: 766px) {
+  .arrow-left,
+  .arrow-right {
+    margin-right: -10000px;
+  }
+}
