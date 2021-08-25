@@ -1,0 +1,94 @@
+/* MAIN-FORM-DIV 
+Didžioji email forma centre*/
+.main-form-div {
+    background-color: cadetblue;
+    background-color: var(--system1);
+    border-radius: 40px;
+  }
+  .main-form {
+    width: 100%;
+    padding-bottom: 110px;
+    position:relative;
+  }
+  .main-form-h2 {
+    color: white;
+    color: var(--colortexttab);
+    font-size: 44px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 12px;
+    width:80%;
+    margin: 0% 10% 0% 10%;
+  
+  }
+  @media screen and (max-width: 800px) {
+    .main-form {
+      padding-bottom: 60px;
+    }
+    .main-form-h2 {
+      padding-top: 50px;
+      font-size: 36px;
+      width:90%;
+      margin: 0% 5% 0% 5%;
+    }
+    .email-main {
+      width:90%;
+      margin: 0% 5% 0% 5%;
+    }
+  }
+  .email-main {
+    height: 46px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--colortexttab);
+    background-color: cadetblue;
+    background-color: var(--system1);
+    font-size: large;
+    color: white;
+    color: var(--colortexttab);
+    padding: 0px 0px 4px 0px;
+    width:70%;
+    margin: 0% 15% 0% 15%;
+  }
+  .email-main::placeholder {
+    color: white;
+    color: var(--colortexttab);
+  }
+  .main-arrow {
+    width: 10%;
+    height: 44px;
+    border: none;
+    background-color: cadetblue;
+    background-color: var(--system1);
+    font-size: large;
+    color: white;
+    color: var(--colortexttab);
+    padding: 0px 0px 3px 0px;
+    position: absolute;
+    right: 15%;
+    cursor: pointer;
+    text-align: right;
+  }
+  .main-arrow:hover {
+    animation-name: main-arrow;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+  }
+  @keyframes main-arrow {
+    0% {
+      color: var(--colortexttab);
+    }
+    100% {
+      color: var(--system2);
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .email-main {
+      width:90%;
+      margin: 0% 5% 0% 5%;
+    }
+    .main-arrow {
+      right: 5%;
+    }
+  }
