@@ -1,0 +1,51 @@
+footer .title {
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 20px;
+}
+
+footer .socials {
+    margin-top: 35px;
+    
+}
+footer .fa {
+    font-size: 14px;
+}
+footer .socials a {
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 6px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    background-color: aquamarine;
+}
+footer .socials a:hover {
+    background-color: pink;
+    color: #fff;
+}
+
+footer p.description {
+    line-height: 1.5em;
+}
+
+footer .features {
+    line-height: 2em;
+    text-decoration: none;
+}
+footer .features a {
+    text-decoration: none;
+}
+
+
+footer .company-links {
+    line-height: 2em;
+    text-decoration: none;
+}
+footer .company-links a {
+    text-decoration: none;
+}
