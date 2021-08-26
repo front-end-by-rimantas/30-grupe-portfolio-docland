@@ -1,17 +1,18 @@
 .button1,
 .button2,
-.button3 {
+.button3,
+.button4 {
   padding: 12px 30px 12px 30px;
   border-radius: 6px;
   font-size: medium;
   font-weight: bolder;
   text-decoration: none;
-  display: inline-block;
+  display:inline-block;
 }
 .button1,
 .button2 {
   color: white;
-  color: var(--colortexttab);
+  color: var (--colortexttab);
 }
 .button1 {
   background-color: cadetblue; /* pradine spalva */
@@ -26,6 +27,15 @@
   background-color: var(--colortexttab); /* pradine spalva */
   color: cadetblue;
   color: var(--system1);
+}
+.button4 {
+  background-color: white; /* pradine spalva */
+  background-color: var(--colortexttab); /* pradine spalva */
+  color: grey;
+  color: var(--fontlittle);
+  border: 1px solid;
+  border-color: cadetblue;
+  border-color: var(--system1);
 }
 /* animacijų sukūrimas, kai hoverina */
 .button1:hover {
@@ -72,6 +82,21 @@
   }
   100% {
     background-color: var(--system2);
+    color: var(--colortexttab);
+  }
+}
+.button4:hover {
+  animation-name: button4;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button4 {
+  0% {
+    background-color: var(--colortexttab);
+    color: var(--system1);
+  }
+  100% {
+    background-color: var(--system1);
     color: var(--colortexttab);
   }
 }
@@ -221,5 +246,45 @@
   .arrow-left,
   .arrow-right {
     margin-right: -10000px;
+  }
+}
+
+/* ___________________________________ */
+.button-arrow1 {
+  background-color: #c4faf8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  color: var(--system1);
+  font-size: 28px;
+  padding: 6px 16px 2px 16px;
+}
+.button-arrow1:hover {
+  animation-name: button-arrow1;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+}
+.student-review-h2 {
+  display: inline-block;
+  width: 70%;
+}
+.arrow-left1 {
+  display: inline-block;
+  float: left;
+  margin-right: 0px;
+}
+.arrow-right1 {
+  display: inline-block;
+  float: left;
+  margin-left: 16px;
+}
+@keyframes button-arrow1 {
+  0% {
+    background-color: #c4faf8;
+    color: var(--system1);
+  }
+  100% {
+    background-color: var(--system1);
+    color: var(--colortexttab);
   }
 }
