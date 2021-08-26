@@ -12,7 +12,7 @@
 .button1,
 .button2 {
   color: white;
-  color: var (--colortexttab);
+  color: var(--colortexttab);
 }
 .button1 {
   background-color: cadetblue; /* pradine spalva */
