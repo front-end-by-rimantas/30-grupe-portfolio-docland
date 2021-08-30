@@ -144,7 +144,7 @@
   }
   .learn-UX-design1,
   .learn-UX-design2 {
-    max-width: 6000px;
+    max-width: 600px;
   }
   .skritulys1 {
     width: 1px;
@@ -222,7 +222,7 @@
 }
 .learn-UX-design2 {
   animation-name: learn-UX-design2;
-  animation-duration: 1600ms;
+  animation-duration: 2000ms;
   animation-fill-mode: forwards;
 }
 @keyframes learn-UX-design2 {
@@ -241,7 +241,7 @@
 .skritulys1 {
   animation-name: skritulys1;
   animation-duration: 600ms;
-  animation-delay: 1500ms;
+  animation-delay: 1800ms;
   animation-fill-mode: forwards;
 }
 @keyframes skritulys1 {
@@ -278,7 +278,7 @@
 .sesiakampis2 {
   animation-name: skritulys2;
   animation-duration: 500ms;
-  animation-delay: 1600ms;
+  animation-delay: 1500ms;
   animation-fill-mode: forwards;
 }
 @keyframes skritulys2 {
