@@ -1,0 +1,52 @@
+footer .title {
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    height: 21px;
+    margin-bottom: 27px;
+    margin-top: 5px;
+}
+
+footer .socials {
+    margin-top: 35px;
+    
+}
+footer .fa {
+    font-size: 14px;
+}
+footer .socials a {
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 6px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    background-color: transparent;
+}
+footer .socials a:hover {
+    background-color: var(--system1);
+    color: #fff;
+}
+
+footer p.description {
+    line-height: 1.5em;
+}
+
+footer .links {
+    line-height: 2em;
+    text-decoration: none;
+    background-color: transparent;
+}
+footer .links a {
+    font-weight: normal;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+footer .links a:hover {
+    color: var(--system1);
+    margin-left: 3px;
+}
