@@ -14,12 +14,15 @@
 .star-rating {
 color: darkorange; /* pradine spalva */
 color: var(--system2); /* pradine spalva */
+display: inline-block;
 }
 .student-info, .student-text {
  padding-top: 4%; 
 }
+.student-photo {
+    display: inline-block;
+}  
 .student-photo > img {
-  display: inline-block;
   width: 80px;
   height: 80px;
   border-radius: 50%;
