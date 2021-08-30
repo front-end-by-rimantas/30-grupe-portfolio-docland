@@ -1,0 +1,321 @@
+.learn-UX-design {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 4%;
+}
+.star-row{
+    margin-top: 50px;
+}
+.star-container {
+    width: fit-content;
+    float: left;
+}
+.star-count {
+    width: fit-content;
+    float: left;
+}
+.star-count p {
+    line-height: 16px;
+}
+.learn-text{
+    width:360px;
+}
+h1 {
+    font-size: 52px;
+    font-weight: bolder;
+}
+.with{
+    font-weight: bolder;
+}
+.with-norman {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.learn-button {
+    margin-top: 40px;
+}
+.don-norman{
+    color: cadetblue;
+    color: var(--system1);
+    font-weight: bolder;
+}
+.enroll-button {
+    float: left;
+    margin-right: 30px;
+}
+.fin-aid {
+    width: 200px;
+    float: left;
+    margin-top: 14px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+.fin-aid a{
+    text-decoration: none;
+    color: grey;
+    color: var(--fontlittle);
+    text-decoration: underline;
+}
+.learn-UX-design2 {
+    position:relative;
+}
+.learn-UX-design2 img {
+    width:100%;
+    height: auto;
+}
+.skritulys1 {
+    width: 250px;
+    height: 250px;
+    background-color: cadetblue;
+    background-color: var(--system1);
+    border-radius: 50%;
+    z-index: -2;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+.skritulys2 {
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    background-color: var(--system1);
+    border-radius: 50%;
+    z-index: -2;
+    position: absolute;
+    left: 80px;
+    top: 0%;
+}
+.sesiakampis {
+    width: 80px;
+    height:160px;
+    background-color: darkorange;
+    background-color: var(--system2);
+    border-radius: 10px;
+    z-index: -1;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.sesiakampis2 {
+    width: 80px;
+    height:160px;
+    background-color: darkorange;
+    background-color: var(--system2);
+    border-radius: 10px;
+    z-index: -1;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    transform: rotate(-45deg);
+}
+.sesiakampis::before {
+    content:"";
+    width: 80px;
+    height:160px;
+    background-color: darkorange;
+    background-color: var(--system2);
+    border-radius: 10px;    
+    position: absolute;
+    transform: rotate(45deg);
+}
+.sesiakampis::after {
+    content:"";
+    width: 80px;
+    height:160px;
+    background-color: darkorange;
+    background-color: var(--system2);
+    border-radius: 10px;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* MEDIA */
+@media screen and (max-width:980px) {
+    .learn-UX-design {
+        display: block;
+        grid-template-columns: 100%;
+        gap: 0%;
+    }
+    .learn-UX-design1, .learn-UX-design2 {
+        max-width: 6000px;
+    }
+    .skritulys1 {
+        width: 1px;
+        height: 1px;
+        background-color: cadetblue;
+        background-color: var(--system1);
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        right: 10000px;
+        bottom: 0px;
+    }
+    .skritulys2 {
+        width: 1px;
+        height: 1px;
+        background-color: cadetblue;
+        background-color: var(--system1);
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        left: 10000px;
+        top: 0%;
+    }
+    .sesiakampis {
+        width: 1px;
+        height:1px;
+        background-color: darkorange;
+        background-color: var(--system2);
+        border-radius: 10px;
+        z-index: -1;
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        margin-left: 10000px;
+    }
+    .sesiakampis2 {
+        width: 1px;
+        height:1px;
+        background-color: darkorange;
+        background-color: var(--system2);
+        border-radius: 10px;
+        z-index: -1;
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        transform: rotate(-45deg);
+        margin-left: 10000px;
+    }
+}
+
+/* ANIMACIJOS */
+.learn-UX-design1 {
+    animation-name: learn-UX-design1;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+@keyframes learn-UX-design1 {
+    0% {
+        margin-left:-1000px;
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        margin-left:0px;
+        opacity: 1;
+    }
+}
+.learn-UX-design2 {
+    animation-name: learn-UX-design2;
+    animation-duration: 1600ms;
+    animation-fill-mode: forwards;
+}
+@keyframes learn-UX-design2 {
+    0% {
+        margin-left:600px;
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        margin-left:0px;
+        opacity: 1;
+    }
+}
+.skritulys1 {
+    animation-name: skritulys1;
+    animation-duration: 600ms;
+    animation-delay: 1500ms;
+    animation-fill-mode: forwards;
+}
+@keyframes skritulys1 {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        background-color: var(--system1);
+    }
+    58% {
+        background-color: var(--system2);
+    }
+    64% {
+        background-color: black;
+    }
+    72% {
+        background-color: white;
+    }
+    80% {
+        background-color: black;
+    }
+    84% {
+        background-color: var(--system2);
+    }
+    96% {
+        background-color: var(--system1);
+    }
+    100% {
+        bottom: -30px;
+    }
+}
+.skritulys2, .sesiakampis, .sesiakampis2 {
+    animation-name: skritulys2;
+    animation-duration: 500ms;
+    animation-delay: 1600ms;
+    animation-fill-mode: forwards;
+}
+@keyframes skritulys2 {
+    0% {
+        top: 0%;
+        left: 50px; 
+    }
+    50% {
+        background-color: var(--system1);
+    }
+    58% {
+        background-color: var(--system2);
+    }
+    64% {
+        background-color: black;
+    }
+    72% {
+        background-color: white;
+    }
+    80% {
+        background-color: black;
+    }
+    84% {
+        background-color: var(--system2);
+    }
+    96% {
+        background-color: var(--system1);
+    }
+    100% {
+        top: -10%;
+        left: 20px;
+    }
+}
+.sesiakampis, .sesiakampis2 {
+    animation-name: sesiakampis;
+    animation-duration: 500ms;
+    animation-delay: 1600ms;
+    animation-fill-mode: forwards;
+}
+@keyframes sesiakampis {
+    0% {
+        top: 0%;
+        left: 50px; 
+    }
+    100% {
+        top: -5%;
+        left: 10px;
+    }
+}
