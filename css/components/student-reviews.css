@@ -41,25 +41,6 @@ color: var(--system2); /* pradine spalva */
   font-size: 20px;
 }
 .student-rating {
-<<<<<<< HEAD
-  display:inline-block;
-  width: fit-content;
-}
-.student-rating > p {
-  text-align: center;
-}
-.reviews-rating, .reviews-count {
-  font-size: 66px;
-  font-weight: bold;
-  padding:15px;
-}
-.reviews-rating {
-  color:darkorange;
-  color: var(--system2);
-}
-.reviews-count {
-  color:cadetblue;
-=======
   display: inline-block;
   width: fit-content;
 }
@@ -105,7 +86,6 @@ color: var(--system2); /* pradine spalva */
 }
 .reviews-count {
   color: cadetblue;
->>>>>>> f3bae0c380d42786c0730da97b908b36f17b2035
   color: var(--system1);
 }
 .student-rating > :last-child {
