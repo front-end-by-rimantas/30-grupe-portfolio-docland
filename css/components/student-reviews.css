@@ -4,27 +4,31 @@
   color: black;
   color: var(--fontbig);
 }
-.student-slide{
-background-color: white;
-background-color: var(--colortexttab);
-border-radius: 10px;
-box-shadow: 5px 10px 20px rgba(157, 85, 224, 0.76);
-padding:2%;
+.student-slide {
+  background-color: white;
+  background-color: var(--colortexttab);
+  border-radius: 10px;
+  box-shadow: 5px 10px 20px rgba(157, 85, 224, 0.76);
+  padding: 2%;
 }
 .star-rating {
-color: darkorange; /* pradine spalva */
-color: var(--system2); /* pradine spalva */
+  display: inline-block;
+  color: darkorange; /* pradine spalva */
+  color: var(--system2); /* pradine spalva */
 }
 .student-info,
 .student-text {
-padding-top: 4%;
+  padding-top: 4%;
 }
-.student-info img {
-display: inline-block;
-width: 80px;
-height: auto;
-border-radius: 50%;
-border: 3px solid var(--system2);
+.student-photo {
+  display: inline-block;
+}
+.student-photo > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid cadetblue;
+  border: 3px solid var(--system1);
 }
 .student-stars-name {
 display: inline-block;
@@ -39,6 +43,11 @@ font-size: 20px;
 color: dimgray;
 color: var (--fontlittle);
 font-size: 20px;
+}
+.st-ratings {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 4%;
 }
 .student-rating {
 display: inline-block;

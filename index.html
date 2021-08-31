@@ -7,13 +7,13 @@
     <title>DOCland portfolio</title>
     <link rel="stylesheet" href="./css/home.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/home.css">
+
 </head>
   
 <body>
     <!-- Mygtukas "back to the top". Galima jį dėti bet kur, nes pozicija'absolute'
     Tiesiog paprasčiau pradinę poziciją turėti kairiame viršutiniame kampe -->
-    </p><a href="#" class="button-up"><i class="fa fa-angle-up" aria-hidden="true"></i></a></p>
+    <button class="button-up fa fa-angle-up" aria-hidden="true"></button>
     
     <!--Header componnents pradzia -->
     <header class="container">
@@ -157,30 +157,34 @@
         <div class="row">
             <div class="col-12 col-md-6 student-slide">
                 <div class="student-info">
-                    <img src="./img/sr1.png" alt="Ieva Kamanaitė">
+                    <div class="student-photo">
+                        <img src="./img/sr1.png" alt="Ieva Kamanaitė">
+                    </div>
                     <div class="student-stars-name">
                         <p class="star-rating"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                            aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                            aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i></p>
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i></p>
                         <p class="student-name">Ieva Kamanaitė</p>
                     </div>
                 </div>
                 <p class="student-text">Tikrai man šie kursai labai patiko. Puiki aplinka ir nuostabūs dėstytojai. Jaučiuosi
-                daugiau sužinojusi ir praplėtusi akiratį. Sėkmingai baigiau ir nesigailiu.</p>
+                    daugiau sužinojusi ir praplėtusi akiratį. Sėkmingai baigiau ir nesigailiu.</p>
             </div>
             <div class="col-12 col-md-6 student-slide">
                 <div class="student-info">
-                    <img src="./img/sr2.png" alt="Dalia Bitaitė">
+                    <div class="student-photo">
+                        <img src="./img/sr2.png" alt="Dalia Bitaitė">
+                    </div>
                     <div class="student-stars-name">
                         <p class="star-rating"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                            aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                            aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i></p>
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i></p>
                         <p class="student-name">Dalia Bitaitė</p>
                     </div>
                 </div>
                 <div class="student-text">
                     <p>Niekuomet nemaniau, kad taip lengva mokytis. Kaip batus apsiauti. Labai padėjo šilti dėstytojai ir
-                    kolegos. Mano darbdaviai labai patenkinti kursuose įgytais įgūdžiais.</p>
+                        kolegos. Mano darbdaviai labai patenkinti kursuose įgytais įgūdžiais.</p>
                 </div>
             </div>
         </div>
@@ -210,9 +214,14 @@
     <!--Form pradzia -->
     <section class="container">
         <div class="row">
-            <div class="col-12">
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ea culpa dignissimos soluta, voluptatum dolor! Accusantium voluptatibus nesciunt sequi qui possimus in repudiandae quas quam laborum? Officia repellendus blanditiis facere?</h2>
-                <input  id="email" type="email" placeholder="Enter your email" required>
+            <div class="col-12 main-form-div" >
+                <div class="row">
+                    <h2 class="main-form-h2">Become A Good Designer From Beginner To Expert Grab This Course Now.</h2>
+                    <form action="" class="main-form">
+                        <input type="email" name="main-email" class="email-main" placeholder="Enter your email" id="" required>
+                        <input type="submit" value="→" class="main-arrow">
+                    </form>
+                </div>
             </div>
         </div>
     </section>
@@ -239,32 +248,54 @@
     <!--Footer pradzia -->
     <footer class="container">
         <div class="row">
-            <div class="col col-12 col-md-6 col-lg-3">
-                <h3>DOCland</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni neque dignissimos beatae minus ab asperiores, odio numquam odit quia maiores! Repudiandae maxime ea doloribus sunt architecto beatae ut nemo expedita?</p>
-                <a href="#">fb</a>
-                <a href="#">twitter</a>
-                <a href="#">insta</a>
-                <a href="#">link</a>
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-8">
+                        <img src="./img/footer-logo.png" alt="logo" class="logo">
+                        <p class="description">Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla orci tincidunt sit amet est.</p>
+                        <div class="socials">
+                            <a href="#" target="_blank" class="fa fa-facebook"></a>
+                            <a href="#" target="_blank" class="fa fa-twitter"></a>
+                            <a href="#" target="_blank" class="fa fa-instagram"></a>
+                            <a href="#" target="_blank" class="fa fa-linkedin"></a>
+                        </div>
+                    </div>
+            
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h2 class="title">Features</h2>
+                        <div class="links">
+                            <a href="#">Timeline Review</a>
+                            <a href="#">Custom Fields</a>
+                            <a href="#">Custom Templates</a>
+                            <a href="#">Task Dependencies</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col col-12 col-md-6 col-lg-3">
-                <h3>Features</h3>
-                <a href="#">Timeline Review</a>
-                <a href="#">Custom Fields</a>
-                <a href="#">Custom Templates</a>
-                <a href="#">Task Dependencies</a>
-            </div>
-            <div class="col col-12 col-md-6 col-lg-3">
-                <h3>Company</h3>
-                <a href="#">About Us</a>
-                <a href="#">Pricing Plan</a>
-                <a href="#">Privacy & Policy</a>
-                <a href="#">Latest News</a>
-            </div>
-            <div class="col col-12 col-md-6 col-lg-3"> <!--ant col-md-6 kazkokia nesamone su responsive designu-->
-                <h3>Subscribe Newsletter</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quas recusandae aut ratione et quos id molestias placeat, excepturi vel in velit incidunt tenetur assumenda officiis dicta aliquid distinctio. Expedita!</p>
-                <input type="email"id="email" placeholder="Enter your email">
+
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <h2 class="title">Company</h2>
+                            <div class="links">
+                                <a href="#">About Us</a>
+                                <a href="#">Pricing Plan</a>
+                                <a href="#">Privacy & Policy</a>
+                                <a href="#">Latest News</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-8">
+                            <h2 class="title">Subscribe Newsletter</h2>
+                            <p class="description">Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est.</p>
+                            <form action="" class="bottom-form">
+                                <input type="email" name="email-bottom" class="email-bottom" placeholder="Enter your email" id="" required>
+                                <input type="submit" value="Subscribe" class="bottom-subscribe">
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
