@@ -4,7 +4,7 @@
   width: 100vw;
   height: 100vh;
   animation-name: loading-screen;
-  animation-duration: 3000ms;
+  animation-duration: 1500ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
