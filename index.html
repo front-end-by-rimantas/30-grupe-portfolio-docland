@@ -1,18 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOCland portfolio</title>
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
-
+  
 <body>
-    CONTENT
+    <!-- Loading screen lango HTML -->
+    <div class="loading-screen">
+        <p class=uzsklandosp>D</p>
+        <div class="uzsklandosratukas"></div>
+    </div>
+    <!-- Mygtukas "back to the top". Galima jį dėti bet kur, nes pozicija'absolute'
+    Tiesiog paprasčiau pradinę poziciją turėti kairiame viršutiniame kampe -->
+    <button class="button-up fa fa-angle-up" aria-hidden="true"></button>
+    
+    <!--Header componnents pradzia -->
+    <header class="container">
+      <div class="row">
+        <div class="col-12">
+          <img src="./img/docland-logo.png" alt="Logo" class="logo">
+           <!-- <nav class ="hidden visible-flex-lg"> -->
+            <a href="#">Home</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#carear">Carear</a>
+            <a href="#pages">Pages</a>
+            <a href="#blog">Blog</a>
+            <a href="#">Log In</a>
+            <a href="#">Join now</a>
+          </nav>
+          <i class="hamburger fa fa-bars hidden-lg"></i>
+        </div>
+      </div>
+    </header>
+    <!--Header components pabaiga -->
+    
+    <!--Learn UX design pradzia -->
+    <section class="container">
+        <div class="row">
+            <div class="learn-UX-design">
+                <div class="learn-UX-design1">
+                    <div class="star-row">
+                        <div class="star-container">
+                            <p class="star-rating"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i></p>
+                        </div>
+                        <div class="star-count">
+                            <p>(2.3 k)</p>
+                        </div>
+                    </div>
+                    <div class="learn-text">
+                        <br><h1>Learn UX Design</h1>
+                        <div class="with-norman">
+                        <p><span class="with">With</span><span class="don-norman"> Don Norman</span> </p>
+                        </div>
+                        <p>Design High-Impact User Experiences. Research, Design, and Prototype effective, visually-driven websites and apps.</p>
+                    </div>
+                    <div class="learn-button">
+                        <div class="enroll-button">
+                            <a href="#" class="button2">Enroll Now</a>
+                        </div>
+                        <div class="fin-aid">
+                            <p><a href="">Financial aid available</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="learn-UX-design2">
+                    <img src="./img/course-b.png" alt="video link picture">
+                    <div class="play-button">
+                        <a href="https://youtu.be/ni5hRK1ehzk" class="button-play"><i class="fa fa-play" aria-hidden="true"></i></a></a>
+                    </div>
+                    <div class="skritulys1"></div>
+                    <div class="skritulys2"></div>
+                    <div class="sesiakampis"></div>
+                    <div class="sesiakampis2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Learn UX design pabaiga -->      
+    
+    <!--Date / time pradzia -->
+    <section class="container">
+        <div class="row">
+            <div class="col-12 col-lg-5 col-xl-3">Enrolled students</div>
+            <div class="col-12 col-lg-5 col-xl-3">Estimated complete time</div>
+            <div class="col-12 col-lg-5 col-xl-3">Start date</div>
+            <div class="col-12 col-lg-5 col-xl-3">Language</div> <!--cia neaisku kaip margina ideti, nes nesidalina is 12-->
+        </div>    
+        <div class="row">
+            <p>Close in</p>
+            <div class="clock"> <!--manau cia nereikia naudot basic layout.css-->
+                <div class="#">Days</div> <!--cia kaip coming soon dizainas-->
+                <div class="#">Hours</div>
+                <div class="#">Minutes</div>
+                <div class="#">Seconds</div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--Data / time pabaiga -->
 
+
+    <!--What u learn pradzia -->
+    <section class="container">
+        <div class="row">
+            <h1 class="col-12 col-lg-10">What you'll learn from this course</h1>
+            <button class="col-lg-1">#</button> <!--prie col-lg sitie mygtaukai isvis dingsta, cia galima fixinti-->
+            <button class="col-lg-1">#</button>
+        </div>
+        <div class="row">   
+            <div class="col-12 col-md-6 col-lg-3">#1</div>
+            <div class="col-12 col-md-6 col-lg-3">#2</div>
+            <div class="col-12 col-md-6 col-lg-3">#3</div>
+            <div class="col-12 col-md-6 col-lg-3">#4</div> <!--sitie slides pradingineja o ne stumiasi i apacia reikia Rimanto paklaust-->
+           </div>
+        </div>
+    </section>
+    <!--What u learn pabaiga -->
+
+
+    <!--Cource syllabus pradzia -->
+    <section class="container">
+        <div class="row">
+            <h1 class="col-12 col-md-8">Course syllabus</h1>
+            <button class="col-2 ml-2">Download</button> <!--buttonas and col-md pereinia i pacia apacia viso coarse sylabs turinio-->
+        </div>
+        <div class="row">
+            <div class="col-12">Week 1</div>
+            <div class="col-12">Week 2 </div>
+            <div class="col-12">Week 3</div>
+            <div class="col-12">Week 4</div>
+            <div class="col-12">Week 5</div>
+        </div>
+    </section>
+    <!--Cource syllabus pabaiga -->
+
+      
+    <!--Cource benefit pradzia -->
+    <section class="container">
+        <div class="row">
+            <h1 class="col-12 col-lg-10">Coarse benefit</h1>
+            <button class="col-lg-1">#</button> <!--prie col-lg sitie mygtaukai isvis dingsta, cia galima fixinti-->
+            <button class="col-lg-1">#</button>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">#1</div> <!--padariau kaip corase syllabus, bet cia prie col-xxl tiktais atsiranda 4 elementas-->
+            <div class="col-12 col-md-6 col-lg-3">#2</div>
+            <div class="col-12 col-md-6 col-lg-3">#3</div>
+            <div class="col-12 col-md-6 col-lg-3">#4</div
+        </div>
+    </section>
+    <!--Cource benefit pabaiga -->
+
+
+    <!--Pricing pradzia -->
+    <section class="container">
+        <div class="row">
+            <h1 class="col-12">Pricing</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 ml-xl-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi maiores odio sapiente provident molestiae cumque quidem. Ipsam, aperiam a repellat itaque quisquam quaerat ullam fuga ea iure eius minus debitis?</p>
+                <a href="#">Enroll now</a>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio magni, ipsum praesentium eum veniam optio qui fugit quidem corporis, expedita ea ratione voluptate asperiores minus molestiae, earum alias veritatis aliquid!</p>
+                <a href="#">Enroll now</a>
+            </div>
+        </div>
+    </section>
+    <!--Pricing pabaiga -->
+
+    <!--Studients reviews pradzia -->
+    <section class="container">
+        <div class="row">
+            <h2 class="student-review-h2">Student reviews</h2>
+            <button class="arrow-right button-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            <button class="arrow-left button-arrow"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 student-slide">
+                <div class="student-info">
+                    <div class="student-photo">
+                        <img src="./img/sr1.png" alt="Ieva Kamanaitė">
+                    </div>
+                    <div class="student-stars-name">
+                        <p class="star-rating"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i></p>
+                        <p class="student-name">Ieva Kamanaitė</p>
+                    </div>
+                </div>
+                <p class="student-text">Tikrai man šie kursai labai patiko. Puiki aplinka ir nuostabūs dėstytojai. Jaučiuosi
+                    daugiau sužinojusi ir praplėtusi akiratį. Sėkmingai baigiau ir nesigailiu.</p>
+            </div>
+            <div class="col-12 col-md-6 student-slide">
+                <div class="student-info">
+                    <div class="student-photo">
+                        <img src="./img/sr2.png" alt="Dalia Bitaitė">
+                    </div>
+                    <div class="student-stars-name">
+                        <p class="star-rating"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i></p>
+                        <p class="student-name">Dalia Bitaitė</p>
+                    </div>
+                </div>
+                <div class="student-text">
+                    <p>Niekuomet nemaniau, kad taip lengva mokytis. Kaip batus apsiauti. Labai padėjo šilti dėstytojai ir
+                        kolegos. Mano darbdaviai labai patenkinti kursuose įgytais įgūdžiais.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container st-ratings">
+                <div class="student-rating">
+                    <div class="student-rating-left">
+                        <p class="reviews-rating">4.84/5</p>
+                        <p>Average rating</p>
+                    </div>
+                </div>
+                <div class="student-rating">
+                    <div class="student-rating-right">
+                        <p class="reviews-count">15.5k</p>
+                        <p>Student reviews</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="viewallreviews">
+            <p><a href="#" class="button1">View All Reviews</a></p>
+        </div>
+    </section>
+    <!--Studients reviews pabaiga -->
+
+    
+    <!--Form pradzia -->
+    <section class="container">
+        <div class="row">
+            <div class="col-12 main-form-div" >
+                <div class="row">
+                    <h2 class="main-form-h2">Become A Good Designer From Beginner To Expert Grab This Course Now.</h2>
+                    <form action="" class="main-form">
+                        <input type="email" name="main-email" class="email-main" placeholder="Enter your email" id="" required>
+                        <input type="submit" value="→" class="main-arrow">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Form pabaiga -->
+
+    <!--Cource instructor pradzia -->
+    <section class="container instructor">
+        <div class="row">
+            <h2 class="col-12 title">Course instructor</h2>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6 column">
+                <div class="info">
+                    <img src="./img/author1.png" alt="Sarah Taylor">
+                    <div class="description">
+                        <h3>Sarah Taylor</h3>
+                        <span>UX Consultant & Expertise</span>
+                        <ul class="list">
+                            <li>Top Instructor in Skillshare</li>
+                            <li>30K+ Students</li>
+                            <li>10 total courses</li>
+                        </ul>
+                    </div>
+                </div>
+                <p>The course has been really helpful. I have been able to understand the fundamentals ofUI Design. The importance of wireframing, prototyping, colours and how to study other site wireframing and to implement them into my UI/UX Creative process.</p>
+            </div>
+            <div class="col-12 col-lg-6 column">
+                <div class="info">
+                    <img src="./img/author2.png" alt="Ran Segall">
+                    <div class="description">
+                        <h3>Ran Segall</h3>
+                        <span>UX Consultant & Expertise</span>
+                        <ul class="list">
+                            <li>Top Instructor in Skillshare</li>
+                            <li>30K+ Students</li>
+                            <li>10 total courses</li>
+                        </ul>   
+                    </div>
+                </div>
+                <p>The course has been really helpful. I have been able to understand the fundamentals ofUI Design. The importance of wireframing, prototyping, colours and how to study other site wireframing and to implement them into my UI/UX Creative process.</p>
+            </div>
+        </div>
+    </section>
+    <!--Cource instructor pabaiga -->
+
+    <!--Footer pradzia -->
+    <footer class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-8">
+                        <img src="./img/footer-logo.png" alt="logo" class="logo">
+                        <p class="description">Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla orci tincidunt sit amet est.</p>
+                        <div class="socials">
+                            <a href="#" target="_blank" class="fa fa-facebook"></a>
+                            <a href="#" target="_blank" class="fa fa-twitter"></a>
+                            <a href="#" target="_blank" class="fa fa-instagram"></a>
+                            <a href="#" target="_blank" class="fa fa-linkedin"></a>
+                        </div>
+                    </div>
+            
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h2 class="title">Features</h2>
+                        <div class="links">
+                            <a href="#">Timeline Review</a>
+                            <a href="#">Custom Fields</a>
+                            <a href="#">Custom Templates</a>
+                            <a href="#">Task Dependencies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <h2 class="title">Company</h2>
+                            <div class="links">
+                                <a href="#">About Us</a>
+                                <a href="#">Pricing Plan</a>
+                                <a href="#">Privacy & Policy</a>
+                                <a href="#">Latest News</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-8">
+                            <h2 class="title">Subscribe Newsletter</h2>
+                            <p class="description">Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est.</p>
+                            <form action="" class="bottom-form">
+                                <input type="email" name="email-bottom" class="email-bottom" placeholder="Enter your email" id="" required>
+                                <input type="submit" value="Subscribe" class="bottom-subscribe">
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer pabaiga -->
+
+    </div>
     <script src="./js/home.js" type="module" defer></script>
-</body>
-
+  </body>
 </html>

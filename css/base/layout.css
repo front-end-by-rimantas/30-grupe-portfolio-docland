@@ -47,6 +47,7 @@
   float: left;
   margin-left: var(--half-gap);
   margin-right: var(--half-gap);
+
 }
 .row > .reverse {
   float: right;
@@ -124,11 +125,16 @@
 .row > .ml-11 {
   margin-left: var(--ml11);
 }
-
-.row > .visible {
+.row .visible {
   display: inline-block;
 }
-.row > .hidden {
+.row .visible-flex {
+  display: flex;
+}
+.row .visible-grid {
+  display: grid;
+}
+.row .hidden {
   display: none;
 }
 
@@ -211,9 +217,11 @@
   .row > .ml-sm-11 {
     margin-left: var(--ml11);
   }
-
   .row > .visible-sm {
     display: inline-block;
+  }
+  .row > .visible-flex-sm {
+    display: flex;
   }
   .row > .hidden-sm {
     display: none;
@@ -221,6 +229,7 @@
   .row > .reverse-sm {
     float: right;
   }
+  
   .row > .forward-sm {
     float: left;
   }
@@ -312,6 +321,9 @@
 
   .row > .visible-md {
     display: inline-block;
+  }
+  .row > .visible-flex-md {
+    display: flex;
   }
   .row > .hidden-md {
     display: none;

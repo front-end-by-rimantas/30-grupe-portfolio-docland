@@ -1,0 +1,289 @@
+.button1,
+.button2,
+.button3,
+.button4 {
+  padding: 12px 30px 12px 30px;
+  border-radius: 6px;
+  font-size: medium;
+  font-weight: bolder;
+  text-decoration: none;
+  display: inline-block;
+}
+.button1,
+.button2 {
+  color: white;
+  color: var (--colortexttab);
+}
+.button1 {
+  background-color: cadetblue; /* pradine spalva */
+  background-color: var(--system1); /* pradine spalva */
+}
+.button2 {
+  background-color: darkorange; /* pradine spalva */
+  background-color: var(--system2); /* pradine spalva */
+}
+.button3 {
+  background-color: white; /* pradine spalva */
+  background-color: var(--colortexttab); /* pradine spalva */
+  color: cadetblue;
+  color: var(--system1);
+}
+.button4 {
+  background-color: white; /* pradine spalva */
+  background-color: var(--colortexttab); /* pradine spalva */
+  color: grey;
+  color: var(--fontlittle);
+  border: 1px solid;
+  border-color: cadetblue;
+  border-color: var(--system1);
+}
+/* animacijų sukūrimas, kai hoverina */
+.button1:hover {
+  animation-name: button1;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button1 {
+  0% {
+    background-color: var(--system1);
+  }
+  5% {
+    background-color: #c0a752;
+  }
+  100% {
+    background-color: var(--system2);
+  }
+}
+.button2:hover {
+  animation-name: button2;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button2 {
+  0% {
+    background-color: var(--system2);
+  }
+  5% {
+    background-color: #c0a752;
+  }
+  100% {
+    background-color: var(--system1);
+  }
+}
+.button3:hover {
+  animation-name: button3;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button3 {
+  0% {
+    background-color: var(--colortexttab);
+    color: var(--system1);
+  }
+  100% {
+    background-color: var(--system2);
+    color: var(--colortexttab);
+  }
+}
+.button4:hover {
+  animation-name: button4;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button4 {
+  0% {
+    background-color: var(--colortexttab);
+    color: var(--system1);
+  }
+  100% {
+    background-color: var(--system1);
+    color: var(--colortexttab);
+  }
+}
+
+.viewallreviews > p {
+  text-align: center;
+}
+
+/* ______________________________________ */
+.button-play {
+  padding: 18px 20px 17px 22px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  color: var(--colortexttab);
+  background-color: darkorange; /* pradine spalva */
+  background-color: var(--system2); /* pradine spalva */
+  display: inline-block;
+}
+.button-play:hover {
+  animation-name: button-play;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button-play {
+  0% {
+    background-color: var(--system2);
+  }
+  5% {
+    background-color: #c0a752;
+  }
+  100% {
+    background-color: var(--system1);
+  }
+}
+/* _________________________________________ */
+.button-up {
+  padding: 8px 14px 6px 14px;
+  border-radius: 50%;
+  font-size: 22px;
+  color: white;
+  color: var(--colortexttab);
+  background-color: darkorange; /* pradine spalva */
+  background-color: var(--system2); /* pradine spalva */
+  filter: drop-shadow(0px 3px 6px rgba(164, 164, 165, 0.515));
+  position: fixed;
+  margin-top: 86vh;
+  margin-left: 92vw;
+  animation-name: button-up-move;
+  animation-duration: 2000ms;
+  animation-iteration-count: 1;
+}
+@keyframes button-up-move {
+  0% {
+    margin-top: 55vh;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 86vh;
+    opacity: 1;
+  }
+}
+.button-up:hover {
+  animation-name: button-up;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button-up {
+  0% {
+    background-color: var(--system2);
+    opacity: 1;
+  }
+  100% {
+    background-color: var(--system2);
+    opacity: 0.5;
+  }
+}
+/* ______________________________________________ */
+.button-up1 {
+  padding: 5px 10px 6px 10px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: white;
+  color: var(--colortexttab);
+  background-color: darkorange; /* pradine spalva */
+  background-color: var(--system2); /* pradine spalva */
+  filter: drop-shadow(0px 3px 6px rgba(164, 164, 165, 0.515));
+  display: inline-block;
+}
+.button-up1:hover {
+  animation-name: button-up1;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+}
+@keyframes button-up1 {
+  0% {
+    background-color: var(--system2);
+    opacity: 1;
+  }
+  100% {
+    background-color: var(--system2);
+    opacity: 0.5;
+  }
+}
+/* ___________________________________ */
+.button-arrow {
+  background-color: #c4faf8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  color: var(--system1);
+  font-size: 28px;
+  padding: 6px 16px 2px 16px;
+}
+.button-arrow:hover {
+  animation-name: button-arrow;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+}
+.student-review-h2 {
+  display: inline-block;
+  width: 70%;
+}
+.arrow-left {
+  display: inline-block;
+  float: right;
+  margin-right: 12px;
+}
+.arrow-right {
+  display: inline-block;
+  float: right;
+  margin-right: 30px;
+}
+@keyframes button-arrow {
+  0% {
+    background-color: #c4faf8;
+    color: var(--system1);
+  }
+  100% {
+    background-color: var(--system1);
+    color: var(--colortexttab);
+  }
+}
+@media screen and (max-width: 766px) {
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    margin-right: -10000px;
+  }
+}
+
+/* ___________________________________ */
+.button-arrow1 {
+  background-color: #c4faf8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  color: var(--system1);
+  font-size: 28px;
+  padding: 6px 16px 2px 16px;
+}
+.button-arrow1:hover {
+  animation-name: button-arrow1;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+}
+.student-review-h2 {
+  display: inline-block;
+  width: 70%;
+}
+.arrow-left1 {
+  display: inline-block;
+  float: left;
+  margin-right: 0px;
+}
+.arrow-right1 {
+  display: inline-block;
+  float: left;
+  margin-left: 16px;
+}
+@keyframes button-arrow1 {
+  0% {
+    background-color: #c4faf8;
+    color: var(--system1);
+  }
+  100% {
+    background-color: var(--system1);
+    color: var(--colortexttab);
+  }
+}

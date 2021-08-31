@@ -1,0 +1,8 @@
+Scroll Y reikshme / koordinates / 
+
+const targetDOM = document.querySelectorAll('#target');
+console.log(targetDOM);
+ 
+addEventListener('scroll', () => {
+    console.log(scrollY);
+})
