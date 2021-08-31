@@ -9,7 +9,7 @@ _30 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/30-grupe-portfolio/
+Site published at: https://front-end-by-rimantas.github.io/30-grupe-portfolio-docland/
 
 Design: https://themelooks.org/demo/docland/html/home-course.html
 
