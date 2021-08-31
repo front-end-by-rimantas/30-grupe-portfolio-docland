@@ -47,7 +47,7 @@
   float: left;
   margin-left: var(--half-gap);
   margin-right: var(--half-gap);
-  
+
 }
 .row > .reverse {
   float: right;

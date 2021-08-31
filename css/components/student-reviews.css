@@ -1,0 +1,101 @@
+.student-review-h2 {
+  width: fit-content;
+  font-size: 38px;
+  color: black;
+  color: var(--fontbig);
+}
+.student-slide {
+  background-color: white;
+  background-color: var(--colortexttab);
+  border-radius: 10px;
+  box-shadow: 5px 10px 20px rgba(157, 85, 224, 0.76);
+  padding: 2%;
+}
+.star-rating {
+  display: inline-block;
+  color: darkorange; /* pradine spalva */
+  color: var(--system2); /* pradine spalva */
+}
+.student-info,
+.student-text {
+  padding-top: 4%;
+}
+.student-photo {
+  display: inline-block;
+}
+.student-photo > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid cadetblue;
+  border: 3px solid var(--system1);
+}
+.student-stars-name {
+display: inline-block;
+padding: 5% 0% 4% 2%;
+}
+.student-name {
+color: darkviolet;
+font-weight: bolder;
+font-size: 20px;
+}
+.student-text {
+color: dimgray;
+color: var (--fontlittle);
+font-size: 20px;
+}
+.st-ratings {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 4%;
+}
+.student-rating {
+display: inline-block;
+width: fit-content;
+}
+.st-ratings {
+display: grid;
+width: 100%;
+grid-template-columns: 48% 48%;
+grid-column-gap: 4%;
+padding: 0%;
+}
+.student-rating {
+width: 100%;
+}
+.student-rating p {
+text-align: center;
+}
+.student-rating-left,
+.student-rating-right {
+width: fit-content;
+}
+.student-rating-left {
+float: right;
+}
+@media screen and (max-width: 460px) {
+.st-ratings {
+  display: block;
+}
+.student-rating-left,
+.student-rating-right {
+  width: 100%;
+  margin: auto;
+}
+}
+.reviews-rating,
+.reviews-count {
+font-size: 58px;
+font-weight: bold;
+padding: 15px;
+}
+.reviews-rating {
+color: darkorange;
+color: var(--system2);
+}
+.reviews-count {
+color: cadetblue;
+color: var(--system1);
+}
+.student-rating > :last-child {
+font-size: 24px;
