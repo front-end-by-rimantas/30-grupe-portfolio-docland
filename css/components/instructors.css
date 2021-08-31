@@ -1,0 +1,55 @@
+section.instructor > .row > h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+section.instructor > .row > .column {
+    border-radius: 20px;
+}
+    
+section.instructor > .row > .column > .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.instructor img {
+    height: 190px;
+    margin: 50px 35px;
+}
+
+section.instructor h3 {
+    font-size: 24px;
+}
+
+section.instructor span {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+section.instructor ul.list {
+    list-style: none;
+    margin-right: 20px;
+    line-height: 2em;
+}
+section.instructor ul.list li:nth-child(1)::before {
+    content: url(../../img/CI-icon1.png);
+    margin-right: 15px;
+}
+section.instructor ul.list li:nth-child(2)::before {
+    content: url(../../img/CI-icon2.png);
+    margin-right: 15px;
+}
+section.instructor ul.list li:nth-child(3)::before {
+    content: url(../../img/CI-icon3.png);
+    margin-right: 15px;
+}
+
+section.instructor > .row > .column p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: 300;
+}
