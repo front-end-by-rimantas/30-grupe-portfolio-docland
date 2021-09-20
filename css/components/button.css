@@ -41,7 +41,7 @@
 .button1:hover {
   animation-name: button1;
   animation-duration: 800ms;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; 
 }
 @keyframes button1 {
   0% {
@@ -134,7 +134,9 @@
 }
 /* _________________________________________ */
 .button-up {
-  padding: 8px 14px 6px 14px;
+  width:40px;
+  height:40px;
+  border:var(--system2);
   border-radius: 50%;
   font-size: 22px;
   color: white;
@@ -143,6 +145,7 @@
   background-color: var(--system2); /* pradine spalva */
   filter: drop-shadow(0px 3px 6px rgba(164, 164, 165, 0.515));
   position: fixed;
+  z-index: 90;
   margin-top: 86vh;
   margin-left: 92vw;
   animation-name: button-up-move;
