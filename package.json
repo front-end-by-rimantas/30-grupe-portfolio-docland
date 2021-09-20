@@ -7,7 +7,11 @@
     "dev": "live-server --port=3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["html5", "css3", "es6"],
+  "keywords": [
+    "html5",
+    "css3",
+    "es6"
+  ],
   "author": "Rimantas Belovas",
   "license": "MIT",
   "devDependencies": {
