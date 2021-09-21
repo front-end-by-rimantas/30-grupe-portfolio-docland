@@ -134,8 +134,7 @@
 }
 /* _________________________________________ */
 .button-up {
-  width:40px;
-  height:40px;
+  padding: 4px 12px 4px 12px;
   border:var(--system2);
   border-radius: 50%;
   font-size: 22px;
