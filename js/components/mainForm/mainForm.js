@@ -14,10 +14,11 @@ class mainForm {
              const item = this.data[i];
              console.log (item);
 
-             HTML +=`                        <div class="row">
+             HTML +=`<div class="row">
                         <h2 class="main-form-h2">${item.title}</h2>
-                                <form action="" class="main-form">
-                                <input  type="email" name="main-email" class="email-main" placeholder="Enter your email" id="" required>
+                        <form action="" class="main-form">
+                            <input  type="email" name="main-email" class="email-main" placeholder="Enter your email" id="" required>
+                            <div class="progressBar"></div>
                             <input type="submit" value="→" class="main-arrow">
                         </form>
                     </div>`
