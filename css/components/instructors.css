@@ -59,5 +59,6 @@ section.instructor > .row > .column p {
     background-color: var(--colortexttab);
     border-radius: 12px;
     box-shadow: 5px 10px 20px rgba(157, 85, 224, 0.76);
+    margin-top: 4px;
     margin-bottom: 8px;
 }
