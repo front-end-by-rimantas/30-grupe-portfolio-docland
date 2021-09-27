@@ -1,5 +1,5 @@
 // import JS modules
-
+import { mainForm } from "./components/mainForm/mainForm.js"
 // execute JS modules
 
         /* Header componnents pradzia  */
@@ -27,6 +27,7 @@
         /* Studients reviews pabaiga  */
             
         /* Form pradzia  */
+        new mainForm ();
         /* Form pabaiga  */
             
         /* Cource insructor pradzia  */
