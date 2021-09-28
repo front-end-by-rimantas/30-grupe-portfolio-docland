@@ -14,7 +14,7 @@
     align-items: flex-start;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: rgb(157, 207, 169);
+    background-color: #9dcfa9;
 }
 .course-benefit-right {
     align-items: flex-end;
@@ -24,7 +24,7 @@
     justify-self: center;
 }
 .course-benefit-left>div>i{
-    color:blanchedalmond;
+    color:#ffebcd;
     font-size: 50px;
     padding: 36px 18px 36px 18px;
 }
