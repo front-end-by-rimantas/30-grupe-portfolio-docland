@@ -10,10 +10,9 @@ class courseBenefit {
              const item = this.data[i];
              console.log (item);
 
-             HTML +=`<div class="course-benefit-main">
-             <div class="course-benefit-child">
+             HTML +=`<div class="course-benefit-child">
                  <div class="course-benefit-left">
-                     <div> <i class=${item.ikonele} aria-hidden="true"></i></div>
+                     <div>${item.ikonele}</div>
                  </div>
                  <div class="course-benefit-right">
                      <div class="course-benefit-text">

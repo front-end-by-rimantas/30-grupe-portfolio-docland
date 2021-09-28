@@ -1,6 +1,6 @@
 // import JS modules
-import { courseBenefitArray } from "./components/courseBenefit/courseBenefit.js";
-import { courseBenefit} from "./data/courseBenefitData/courseBenefitData.js"
+import { courseBenefit } from "./components/courseBenefit/courseBenefit.js";
+import { courseBenefitArray } from "./data/courseBenefitData/courseBenefitData.js"
 
 // execute JS modules
 
@@ -20,6 +20,7 @@ import { courseBenefit} from "./data/courseBenefitData/courseBenefitData.js"
         /* Cource syllabus pabaiga  */
             
         /* Course benefit pradzia  */
+        new courseBenefit (".course-benefit-main", courseBenefitArray);
         /* Course benefit pabaiga  */
             
         /* Pricing pradzia  */
