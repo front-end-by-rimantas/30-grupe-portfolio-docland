@@ -4,7 +4,35 @@ class mainForm {
         console.log (data);
         this.selector = selector;
         this.data = data;
-        this.render();
+        this.init();
+    }
+
+    init () {
+        if (!this.isValidSelector 
+            () || !this.isValidData () || !this.findElement()){
+            return false;
+        }
+        if (!this.findElement()){
+            console.log ("KLAIDA - nerastas selektorius")
+            return false;
+        }
+            this.render();
+    }
+
+    isValidSelector(){
+        if (typeof(this.selector) !== "string"|| this.selector==="") {return false};
+        return true;
+    }
+
+    isValidData(){
+        if (!Array.isArray(this.data) || this.data.length===0 ) {return false};
+        return true;
+    }
+
+    findElement() {
+        this.DOM = document.querySelector(this.selector);
+        return !!this.DOM;I
+      //return this.DOM ? true : false;
     }
     render () {
         console.log ("Go Away!!!!")
@@ -24,8 +52,8 @@ class mainForm {
                     </div>`
         }
         console.log (HTML);
-        const DOM = document.querySelector(this.selector);
-        DOM.innerHTML += HTML;
+        //const DOM = document.querySelector(this.selector);
+        this.DOM.innerHTML += HTML;
     }
 }
 

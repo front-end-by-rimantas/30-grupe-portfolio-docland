@@ -101,7 +101,7 @@ Didžioji email forma centre*/
   }
 }
 @media screen and (min-width: 1200px) {
-  .email-main {
+  .email-main, .progressBar {
     width: 50%;
     margin: 0% 25% 0% 25%;
   }
