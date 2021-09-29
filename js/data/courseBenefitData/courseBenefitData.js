@@ -9,7 +9,7 @@ const courseBenefitArray = [
     {
         ikonele: '<i class="fa fa-car" aria-hidden="true"></i>',
         ikonelesSpalva:"#9dcfa9",
-        spalva:"#ffebcd",
+        spalva:"#f657ed",
         antraste: "Automobilis",
         tekstas: "Nemokamas autombilis iš/į mokyklą ir pietų pertraukai."
     }
