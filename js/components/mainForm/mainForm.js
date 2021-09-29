@@ -34,14 +34,35 @@ class mainForm {
         return !!this.DOM;I
       //return this.DOM ? true : false;
     }
+    //Atskirų duomenų tikrinimas, skaičiai ir pavadinimai\:
+
+    //     if (typeof(item)!=="object" || !Array.isArray(item) || item !== null) {
+    //         continue;}
+    //         else if (typeof(item.label)!=="string"||item.label!=="") {
+    //             continue;
+    //         }
+    //            else if (typeof(item.value)!=="number" || isFinite(item.value)!==true) {
+    //                continue;
+    //            };
+
+    //Tikrinama, ar objekas neturi per daug raktažodžių:
+
+    // const itemKeys = Object.keys(item);
+
+    // for (const key of itemKeys) {
+    //     if (!allowedKeys.includes(key)) {
+    //         return false;
+    //     };
+    // }
+
     render () {
         console.log ("Go Away!!!!")
         console.log (this.data)
         let HTML = "";
         for ( let i = 0; i<this.data.length; i++) {
-             const item = this.data[i];
-             console.log (item);
-
+        const item = this.data[i];
+        console.log (item);
+        
              HTML +=`<div class="row">
                         <h2 class="main-form-h2">${item.title}</h2>
                         <form action="" class="main-form">
@@ -51,6 +72,11 @@ class mainForm {
                         </form>
                     </div>`
         }
+
+        if (HTML==="") {
+            console.error("Nėra validžių reikšmių")
+            return false;
+        }
         console.log (HTML);
         //const DOM = document.querySelector(this.selector);
         this.DOM.innerHTML += HTML;
@@ -58,3 +84,13 @@ class mainForm {
 }
 
 export { mainForm };
+
+//WRAP UP
+// Objektų klasėje nustatomi pradiniai parametrai.
+// Paleidžiamas pradinis proceaas, kuris praeina validacija
+// ir paleidžia renderį.
+
+//Patikros:
+//elemento būvimas
+//duomenų atitikimas
+//patikrnti selektorius
