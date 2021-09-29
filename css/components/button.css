@@ -42,6 +42,7 @@
   animation-name: button1;
   animation-duration: 800ms;
   animation-fill-mode: forwards; 
+  transition: all 2s;
 }
 @keyframes button1 {
   0% {
@@ -58,6 +59,7 @@
   animation-name: button2;
   animation-duration: 800ms;
   animation-fill-mode: forwards;
+  transition: all 2s;
 }
 @keyframes button2 {
   0% {
@@ -74,6 +76,7 @@
   animation-name: button3;
   animation-duration: 800ms;
   animation-fill-mode: forwards;
+  transition: all 2s;
 }
 @keyframes button3 {
   0% {
@@ -89,6 +92,7 @@
   animation-name: button4;
   animation-duration: 800ms;
   animation-fill-mode: forwards;
+  transition: all 2s;
 }
 @keyframes button4 {
   0% {

@@ -73,6 +73,7 @@
   position: absolute;
   right: 10px;
   bottom: 0px;
+  box-shadow: none;
 }
 .skritulys2 {
   width: 150px;
@@ -84,6 +85,7 @@
   position: absolute;
   left: 80px;
   top: 0%;
+  box-shadow: none;
 }
 .sesiakampis {
   width: 80px;
@@ -247,9 +249,11 @@
 @keyframes skritulys1 {
   0% {
     bottom: 0px;
+    box-shadow: none;
   }
   50% {
     background-color: var(--system1);
+    box-shadow: none;
   }
   58% {
     background-color: var(--system2);
@@ -259,6 +263,7 @@
   }
   72% {
     background-color: white;
+    box-shadow: 10px 15px 40px 10px var(--system1);
   }
   80% {
     background-color: black;
@@ -271,6 +276,7 @@
   }
   100% {
     bottom: -30px;
+    box-shadow: none;
   }
 }
 .skritulys2,
@@ -285,9 +291,11 @@
   0% {
     top: 0%;
     left: 50px;
+    box-shadow: none;
   }
   50% {
     background-color: var(--system1);
+    box-shadow: none;
   }
   58% {
     background-color: var(--system2);
@@ -297,6 +305,7 @@
   }
   72% {
     background-color: white;
+    box-shadow: -5px -10px 30px 5px var(--system1);
   }
   80% {
     background-color: black;
@@ -310,6 +319,7 @@
   100% {
     top: -10%;
     left: 20px;
+    box-shadow: none;
   }
 }
 .sesiakampis,
