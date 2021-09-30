@@ -59,14 +59,15 @@ class mainForm {
         console.log ("Go Away!!!!")
         console.log (this.data)
         let HTML = "";
-        for ( let i = 0; i<this.data.length; i++) {
+        for ( let i = 0; i<this.data.length; i++ ) {
         const item = this.data[i];
         console.log (item);
         
              HTML +=`<div class="row">
+                        <p class="main-form-p">Pasirinkite interfeiso spalvą: <button class="formButton" id="esamaSpalva">Esama</button><button class="formButton" id="melynaSpalva">Mėlyna</button><button class="formButton" id="juodaSpalva">Juoda</button></p>
                         <h2 class="main-form-h2">${item.title}</h2>
                         <form action="" class="main-form">
-                            <input  type="email" name="main-email" class="email-main" placeholder="Enter your email" id="" required>
+                            <input  type="email" name="main-email" id="email-main" placeholder="Enter your email" id="" required>
                             <div class="progressBar"></div>
                             <input type="submit" value="→" class="main-arrow">
                         </form>
@@ -82,8 +83,48 @@ class mainForm {
         this.DOM.innerHTML += HTML;
     }
 }
+const spalvuFunkcijos = () => {
+const esamaSpalva = document.getElementById("esamaSpalva");
+const melynaSpalva = document.getElementById("melynaSpalva");
+const juodaSpalva = document.getElementById("juodaSpalva");
+const mainFormSpalva = document.querySelector("#main-form-div");
+const mainEmailSpalva = document.querySelector("#email-main");
+const mainArrowSpalva = document.querySelector(".main-arrow");
 
-export { mainForm };
+const melynosSpalvosF = () => {
+    mainFormSpalva.style.backgroundColor = "darkblue";
+    mainEmailSpalva.style.backgroundColor = "darkblue";
+    mainArrowSpalva.style.backgroundColor = "darkblue";
+    esamaSpalva.textContent = "Žalia";
+    melynaSpalva.textContent = "Esama";
+    juodaSpalva.textContent = "Juoda";
+
+};
+melynaSpalva.addEventListener("click", melynosSpalvosF);
+
+const zaliosSpalvosF = () => {
+    mainFormSpalva.style.backgroundColor = "var(--system1)";
+    mainEmailSpalva.style.backgroundColor = "var(--system1)";
+    mainArrowSpalva.style.backgroundColor = "var(--system1)";
+    esamaSpalva.textContent = "Esama";
+    melynaSpalva.textContent = "Mėlyna";
+    juodaSpalva.textContent = "Juoda";
+};
+esamaSpalva.addEventListener("click", zaliosSpalvosF);
+
+const juodosSpalvosF = () => {
+    mainFormSpalva.style.backgroundColor = "black";
+    mainEmailSpalva.style.backgroundColor = "black";
+    mainArrowSpalva.style.backgroundColor = "black";
+    esamaSpalva.textContent = "Žalia";
+    melynaSpalva.textContent = "Mėlyna";
+    juodaSpalva.textContent = "Esama";
+};
+juodaSpalva.addEventListener("click", juodosSpalvosF);
+
+}
+
+export { mainForm, spalvuFunkcijos };
 
 //WRAP UP
 // Objektų klasėje nustatomi pradiniai parametrai.
