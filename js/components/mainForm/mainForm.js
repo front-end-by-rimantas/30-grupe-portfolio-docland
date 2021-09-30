@@ -64,7 +64,7 @@ class mainForm {
         console.log (item);
         
              HTML +=`<div class="row">
-                        <p class="main-form-p">Pasirinkite interfeiso spalvą: <button class="formButton" id="esamaSpalva">Esama</button><button class="formButton" id="melynaSpalva">Mėlyna</button><button class="formButton" id="juodaSpalva">Juoda</button></p>
+                        <p class="main-form-p">Pasirinkite sąsajos spalvą: <button class="formButton" id="esamaSpalva">Esama</button><button class="formButton" id="melynaSpalva">Mėlyna</button><button class="formButton" id="juodaSpalva">Juoda</button></p>
                         <h2 class="main-form-h2">${item.title}</h2>
                         <form action="" class="main-form">
                             <input  type="email" name="main-email" id="email-main" placeholder="Enter your email" id="" required>

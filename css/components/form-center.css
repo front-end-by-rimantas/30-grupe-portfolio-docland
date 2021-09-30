@@ -4,6 +4,7 @@ Didžioji email forma centre*/
   background-color: cadetblue;
   background-color: var(--system1);
   border-radius: 40px;
+  transition: linear, 200ms;
 }
 .main-form-p {
   padding-left: 6px;
@@ -46,6 +47,7 @@ Didžioji email forma centre*/
   padding: 0px 0px 4px 0px;
   width: 70%;
   margin: 0% 15% 0% 15%;
+  transition: linear, 200ms;
 }
 #email-main::placeholder {
   color: white;
@@ -58,6 +60,8 @@ Didžioji email forma centre*/
   margin: 0% 15% 0% 15%;
   position: relative;
   top: -2px;
+  box-shadow: 3px 0px white;
+  box-shadow: 0px 0px 4px 2px white;
   animation-name: progressBar;
   animation-duration: 4000ms;
   animation-iteration-count: infinite;
@@ -76,19 +80,20 @@ Didžioji email forma centre*/
 }
 .main-arrow {
   width:fit-content;
-  height: 44px;
+  height: fit-content;
   border: none;
   background-color: cadetblue;
   background-color: var(--system1);
-  font-size: large;
   color: white;
-  color: var(--colortexttab);
   position: absolute;
   right: 15%;
-  top:0px;
-  cursor: pointer;
+  top:6px;
   text-align: right;
   padding: 0px 8px 0px 8px;
+  transition: linear, 200ms;
+}
+.main-arrow>i{
+  font-size: 30px;
 }
 .main-arrow:hover {
   animation-name: main-arrow;
