@@ -36,8 +36,8 @@ Didžioji email forma centre*/
   height: 46px;
   border: none;
   outline: none;
-  border-bottom: 1px solid white;
-  border-bottom: 1px solid var(--colortexttab);
+  border-bottom: 2px solid white;
+  border-bottom: 2px solid var(--colortexttab);
   background-color: cadetblue;
   background-color: var(--system1);
   font-size: large;
@@ -58,6 +58,21 @@ Didžioji email forma centre*/
   margin: 0% 15% 0% 15%;
   position: relative;
   top: -2px;
+  animation-name: progressBar;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes progressBar {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 70%;
+  }
+  100% {
+    width: 0;
+  }
 }
 .main-arrow {
   width: 10%;
@@ -124,8 +139,19 @@ Didžioji email forma centre*/
     width: 90%;
     margin: 0% 5% 0% 5%;
   }
-  #main-arrow {
+  .main-arrow {
     right: 5%;
+  }
+  @keyframes progressBar {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 90%;
+    }
+    100% {
+      width: 0;
+    }
   }
 }
 @media screen and (min-width: 1200px) {
