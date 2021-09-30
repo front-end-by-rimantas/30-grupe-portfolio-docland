@@ -75,7 +75,7 @@ Didžioji email forma centre*/
   }
 }
 .main-arrow {
-  width: 10%;
+  width:fit-content;
   height: 44px;
   border: none;
   background-color: cadetblue;
@@ -83,12 +83,12 @@ Didžioji email forma centre*/
   font-size: large;
   color: white;
   color: var(--colortexttab);
-  padding: 0px 0px 3px 0px;
   position: absolute;
   right: 15%;
   top:0px;
   cursor: pointer;
   text-align: right;
+  padding: 0px 8px 0px 8px;
 }
 .main-arrow:hover {
   animation-name: main-arrow;

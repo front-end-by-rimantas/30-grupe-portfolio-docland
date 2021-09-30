@@ -69,7 +69,7 @@ class mainForm {
                         <form action="" class="main-form">
                             <input  type="email" name="main-email" id="email-main" placeholder="Enter your email" id="" required>
                             <div class="progressBar"></div>
-                            <input type="submit" value="→" class="main-arrow">
+                            <button class="main-arrow"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button>
                         </form>
                     </div>`
         }
@@ -122,6 +122,12 @@ const juodosSpalvosF = () => {
 };
 juodaSpalva.addEventListener("click", juodosSpalvosF);
 
+const emailInput = document.querySelector("#email-main");
+const progressBarAnimation = document.querySelector(".progressBar");
+const progressBarF = () => {
+    progressBarAnimation.style.animation = "none";
+}
+emailInput.addEventListener("click", progressBarF);
 }
 
 export { mainForm, spalvuFunkcijos };
