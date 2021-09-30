@@ -162,4 +162,15 @@ Didžioji email forma centre*/
   .main-arrow {
     right: 25%;
   }
+  @keyframes progressBar {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 0;
+    }
+  }
 }
