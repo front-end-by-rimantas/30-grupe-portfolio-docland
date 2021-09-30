@@ -9,6 +9,7 @@ Didžioji email forma centre*/
   padding-left: 6px;
   width:fit-content;
   float:right;
+  margin-left:20px;
   margin-right:20px;
   margin-top:20px;
   background-color: chartreuse;
@@ -85,6 +86,22 @@ Didžioji email forma centre*/
   }
   100% {
     color: var(--system2);
+  }
+}
+@media screen and (max-width: 530px) {
+  .main-form-p {
+    padding: 6px;
+    border-radius: 12px;
+    width:260px;
+    float:none;
+    margin:auto;
+    margin-top:6px;
+    
+  }
+}
+@media screen and (max-width: 350px) {
+  .main-form-p {
+    display:none; 
   }
 }
 @media screen and (max-width: 766px) {
