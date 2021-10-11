@@ -1,5 +1,6 @@
 // import JS modules
-
+import { mainForm, spalvuFunkcijos } from "./components/mainForm/mainForm.js"
+import { mainFormTitle } from "./data/mainFormData.js";
 // execute JS modules
 
         /* Header componnents pradzia  */
@@ -27,6 +28,8 @@
         /* Studients reviews pabaiga  */
             
         /* Form pradzia  */
+        new mainForm ("#main-form-div", mainFormTitle);
+        spalvuFunkcijos();
         /* Form pabaiga  */
             
         /* Cource insructor pradzia  */
@@ -40,3 +43,6 @@
            
         /* Footer pradzia  */
         /* Footer pabaiga  */
+
+        const h2 = document.getElementsByTagName("h2");
+        h2.style.color = "red";

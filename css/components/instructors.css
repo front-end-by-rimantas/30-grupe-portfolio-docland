@@ -12,6 +12,9 @@ section.instructor > .row > .column > .info {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 12px;
+    background-color: var(--colortexttab);
+    box-shadow: 5px 10px 20px rgba(157, 85, 224, 0.76);
 }
 
 section.instructor img {
@@ -52,4 +55,10 @@ section.instructor > .row > .column p {
     text-align: center;
     line-height: 1.5em;
     font-weight: 300;
+    padding:8px;
+    background-color: var(--colortexttab);
+    border-radius: 12px;
+    box-shadow: 5px 10px 20px rgba(157, 85, 224, 0.76);
+    margin-top: 2px;
+    margin-bottom: 8px;
 }
